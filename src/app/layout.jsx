@@ -9,8 +9,8 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat
 // Conact me for the rest of the files if there is a need
 
 export const metadata = {
-	title: "John Doe Consultancy", // Website Title
-	description: "John Doe Consultancy is a consultancy firm that helps you with your consultancy needs.", // Website Description
+	title: "Kenia Traum Frauen Partnerinstitut", // Website Title
+	description: "Wo deutsche Männer kenianische Traum Frauen kennenlernen", // Website Description
 };
 
 export default function RootLayout({ children }) {
