@@ -17,14 +17,13 @@ const LandingPage = () => {
         <>
             <section className="grid rounded-xl bg-white dark:bg-white dark:text-black shadow-2xl p-3 px-12 max-w-9xl">
             <Image
-                        width={200}  
-                        height={200}  
+                        width={600}  
+                        height={600}  
                         src="/Logo.png"  
                         alt="Company Logo"
                         style={{ alignSelf: 'center', margin: '0 auto' }}
             />
-            <div></div><br /><br />
-                <div></div><br /><br />
+           
                 <h1 className="font-semibold my-4 justify-self-center text-center text-5xl w-9/12">Videocall Beratung mit Helmut</h1> {/* Replace this with the name */}
                 <div></div><br /><br /> 
                 <button className="justify-self-center mb-8 bg-blue-500 dark:bg-blue-500 px-10 py-8 text-white dark:text-white text-lg font-bold w-fit rounded-full" onClick={() =>
@@ -32,13 +31,22 @@ const LandingPage = () => {
                 }>
                    Jetzt einen Videocall Termin Buchen!
                 </button>
+                
                 <div className="flex flex-col-reverse items-center gap-3 my-8 md:flex-row">
+                <Image
+        	            width={400}
+                        height={612}
+                        src="/helmut.jpg"
+                        style={{ alignSelf: 'flex-start', margin: '0 auto' }}
+                        alt="Owner and Consultant"
+                    />   
+                   
                     <p className="max-w-md text-lg">
-                    Mein Name ist Helmut, ich bin 52 Jahre alt und habe acht Jahre lang als Single in Deutschland verbracht. In dieser Zeit habe ich unzählige Dates gehabt und zahlreiche Erfahrungen bei meiner Suche nach einer Lebenspartnerin gesammelt. Ich habe mich auf nahezu allen gängigen Single-Portalen wie Parship und anderen angemeldet und sogar Zeitungsinserate geschaltet, um Frauen kennenzulernen.
+                    Mein Name ist Helmut, ich bin 52 Jahre alt und habe acht Jahre lang als Single in Deutschland verbracht. Rechts zu sehen ist meine 23 Jährige Frau Pauline. In dieser Zeit habe ich unzählige Dates gehabt und zahlreiche Erfahrungen bei meiner Suche nach einer Lebenspartnerin gesammelt. Ich habe mich auf nahezu allen gängigen Single-Portalen wie Parship und anderen angemeldet und sogar Zeitungsinserate geschaltet, um Frauen kennenzulernen.
                     <br /><br />
                     Leider war es oft so, dass ich Schwierigkeiten hatte, mit den attraktiven Frauen in Kontakt zu treten, und am Ende blieb mir oft nur das übrig, was eigentlich kein Mann will. Wenn es doch einmal zu einem Date kam, erhielt ich oft Aussagen wie Du bist nett, aber du bist nicht mein Typ oder es funkte einfach nicht. Oft kamen auch andere Prioritäten ins Spiel, sei es die Kinder, Haustiere oder Enkelkinder, und die Partnersuche geriet in den Hintergrund.
                     <br /><br />
-                    Eine der kuriosesten Erfahrungen war, dass ich von einer Frau beim Küssen überhaupt nichts gespürt habe. Manche Menschen sind eben in solchen Momenten nicht so einfühlsam.
+                    Die Frau sagte dass sie nichts gespürt hat obwohl wir uns menschlich sehr gut verstanden haben eben einen absoluten dachschaden und sich somit eben nicht verlieben konnte
                     <br /><br />
                     Ich wollte nicht länger alleine sein und suchte nach einer Frau, die mir gefiel. So kam mir die Idee, im Ausland nach meiner Lebenspartnerin zu suchen. Ich war selbstkritisch und mir bewusst, dass ich mit 52 Jahren und durchschnittlichem Aussehen keine großen Reichtümer besaß, dass ich gerade so in Deutschland leben kann.
                     <br /><br />
@@ -50,10 +58,11 @@ const LandingPage = () => {
                      <Image
         	            width={400}
                         height={612}
-                        src="/helmut.jpg"
+                        src="/frau.jpg"
                         style={{ alignSelf: 'flex-start', margin: '0 auto' }}
-                        alt="Owner and Consultant"
+                        alt="Frau von Helmut"
                     />    
+                    
                 </div>
 
                 <button className="justify-self-center mb-8 bg-blue-500 dark:bg-blue-500 px-10 py-8 text-white dark:text-white text-lg font-bold w-fit rounded-full" onClick={() =>
@@ -68,18 +77,8 @@ const LandingPage = () => {
                     </div>
 
                 }
-                <div className="flex gap-6 items-center">
-                    <span>Kontaktieren Sie mich @</span>
-                    <a href="https://www.instagram.com/">
-                        <AiOutlineInstagram size={24} />
-                    </a>
-                    <a href="https://twitter.com/">
-                        <FaTwitterSquare size={24} />
-                    </a>
-                    <a href="mailto:helmut2971@yahoo.com@gmail.com">
-                        <FaMailBulk size={24} />
-                    </a>
-                </div>
+           
+                
             </section>
             <div className="svg-container">
                 <Image width={100} height={86} src="/triangle.svg" alt="triangle background" />
