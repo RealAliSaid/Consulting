@@ -32,14 +32,24 @@ const LandingPage = () => {
                    Jetzt einen Videocall Termin Buchen!
                 </button>
                 
-                <div className="flex flex-col-reverse items-center gap-3 my-8 md:flex-row">
-                <Image
-        	            width={400}
-                        height={612}
-                        src="/helmut.jpg"
-                        style={{ alignSelf: 'flex-start', margin: '0 auto' }}
-                        alt="Owner and Consultant"
-                    />   
+                <div className="flex flex-col-reverse justify-center gap-3 my-8 md:flex-row">
+                <div className="flex flex-col items-start">
+        <Image
+            width={400}
+            height={612}
+            src="/helmut.jpg"
+            style={{ alignSelf: 'flex-start', margin: '0 auto' }}
+            alt="Owner and Consultant"
+        />
+        <br /><br />
+        <Image
+            width={400}
+            height={612}
+            src="/helmut2.png"
+            style={{ alignSelf: 'flex-start', margin: '0 auto' }}
+            alt="Owner and Consultant"
+        />
+    </div>
                    
                     <p className="max-w-md text-lg">
                     Mein Name ist Helmut, ich bin 52 Jahre alt und habe acht Jahre lang als Single in Deutschland verbracht. Rechts zu sehen ist meine 23 Jährige Frau Pauline. In dieser Zeit habe ich unzählige Dates gehabt und zahlreiche Erfahrungen bei meiner Suche nach einer Lebenspartnerin gesammelt. Ich habe mich auf nahezu allen gängigen Single-Portalen wie Parship und anderen angemeldet und sogar Zeitungsinserate geschaltet, um Frauen kennenzulernen.
@@ -55,13 +65,23 @@ const LandingPage = () => {
                     Falls auch Sie daran interessiert sind, eine attraktive Frau aus Kenia kennenzulernen und von meinen Erfahrungen zu lernen, lade ich Sie herzlich zu einem Videochat ein. In diesem Gespräch erkläre ich Ihnen alles im Detail. Selbst wenn Sie über 60 Jahre alt sind, habe ich eine 25-jährige Frau für Sie, damit auch Sie bald in glücklicher Zweisamkeit leben können, so wie ich es heute tue. Ich bin glücklich verheiratet mit einer Traumfrau aus Kenia.
                     <br /><br />
                      </p> 
-                     <Image
-        	            width={400}
-                        height={612}
-                        src="/frau.png"
-                        style={{ alignSelf: 'flex-start', margin: '0 auto' }}
-                        alt="Frau von Helmut"
-                    />    
+                     <div className="flex flex-col items-start">
+        <Image
+            width={400}
+            height={612}
+            src="/frau.png"
+            style={{ alignSelf: 'flex-start', margin: '0 auto' }}
+            alt="Owner and Consultant"
+        />
+        <br /><br />
+        <Image
+            width={400}
+            height={612}
+            src="/frau2.jpg"
+            style={{ alignSelf: 'flex-start', margin: '0 auto' }}
+            alt="Owner and Consultant"
+        />
+    </div>
                     
                 </div>
 
