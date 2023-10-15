@@ -54,7 +54,7 @@ const LandingPage = () => {
                     <br /><br />
                     Falls auch Sie daran interessiert sind, eine attraktive Frau aus Kenia kennenzulernen und von meinen Erfahrungen zu lernen, lade ich Sie herzlich zu einem Videochat ein. In diesem Gespräch erkläre ich Ihnen alles im Detail. Selbst wenn Sie über 60 Jahre alt sind, habe ich eine 25-jährige Frau für Sie, damit auch Sie bald in glücklicher Zweisamkeit leben können, so wie ich es heute tue. Ich bin glücklich verheiratet mit einer Traumfrau aus Kenia.
                     <br /><br />
-                     </p>
+                     </p> 
                      <Image
         	            width={400}
                         height={612}
