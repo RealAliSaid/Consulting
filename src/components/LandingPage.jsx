@@ -58,7 +58,7 @@ const LandingPage = () => {
                      <Image
         	            width={400}
                         height={612}
-                        src="/frau.jpg"
+                        src="/frau.png"
                         style={{ alignSelf: 'flex-start', margin: '0 auto' }}
                         alt="Frau von Helmut"
                     />    
